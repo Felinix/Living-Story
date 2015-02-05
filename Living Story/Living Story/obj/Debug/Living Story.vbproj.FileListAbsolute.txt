@@ -16,3 +16,21 @@ E:\Game Dev Projects\Living Story\Living Story\bin\Debug\StatsBlock.xml
 E:\Game Dev Projects\Living Story\Living Story\obj\Debug\Living Story.vbprojResolveAssemblyReference.cache
 E:\Game Dev Projects\Living Story\Living Story\obj\Debug\Living_Story.LivingStory.resources
 E:\Game Dev Projects\Living Story\Living Story\obj\Debug\Living_Story.ReaderModeScreen.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\Living Story.exe.config
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living Story.exe
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living Story.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living Story.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\Living Story.exe
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\Living Story.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\Living Story.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\BaseClasses.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\StatsBlock.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\BaseClasses.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\BaseClasses.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\StatsBlock.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\bin\Debug\StatsBlock.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living Story.vbprojResolveAssemblyReference.cache
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living_Story.LivingStory.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living_Story.ReaderModeScreen.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living_Story.Resources.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living Story.vbproj.GenerateResource.Cache
