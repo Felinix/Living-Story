@@ -14,3 +14,19 @@ E:\Game Dev Projects\Living Story\StatsBlock\obj\Debug\StatsBlock.pdb
 E:\Game Dev Projects\Living Story\StatsBlock\obj\Debug\StatsBlock.DisplayScreen.resources
 E:\Game Dev Projects\Living Story\StatsBlock\obj\Debug\StatsBlock.StatLine.resources
 E:\Game Dev Projects\Living Story\StatsBlock\obj\Debug\StatsBlock.TopMenu.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\bin\Debug\StatsBlock.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\bin\Debug\StatsBlock.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\bin\Debug\StatsBlock.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\bin\Debug\BaseClasses.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\bin\Debug\BaseClasses.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\bin\Debug\BaseClasses.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\Custom Controls.vbprojResolveAssemblyReference.cache
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.DisplayScreen.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.Resources.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.StatLine.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.StatsBlock.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.TopMenu.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\Custom Controls.vbproj.GenerateResource.Cache
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\StatsBlock\obj\Debug\StatsBlock.pdb
