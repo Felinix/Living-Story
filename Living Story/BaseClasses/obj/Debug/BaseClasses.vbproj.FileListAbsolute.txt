@@ -6,3 +6,11 @@ E:\Game Dev Projects\Living Story\BaseClasses\obj\Debug\BaseClasses.vbproj.Gener
 E:\Game Dev Projects\Living Story\BaseClasses\obj\Debug\BaseClasses.dll
 E:\Game Dev Projects\Living Story\BaseClasses\obj\Debug\BaseClasses.xml
 E:\Game Dev Projects\Living Story\BaseClasses\obj\Debug\BaseClasses.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\bin\Debug\BaseClasses.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\bin\Debug\BaseClasses.pdb
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\bin\Debug\BaseClasses.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\obj\Debug\BaseClasses.Resources.resources
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\obj\Debug\BaseClasses.vbproj.GenerateResource.Cache
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\obj\Debug\BaseClasses.dll
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\obj\Debug\BaseClasses.xml
+E:\Game Dev Projects\Living-Story\trunk\Living Story\BaseClasses\obj\Debug\BaseClasses.pdb
