@@ -34,3 +34,4 @@ E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Livi
 E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living_Story.ReaderModeScreen.resources
 E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living_Story.Resources.resources
 E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living Story.vbproj.GenerateResource.Cache
+E:\Game Dev Projects\Living-Story\trunk\Living Story\Living Story\obj\Debug\Living_Story.EditorModeScreen.resources

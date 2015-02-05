@@ -24,9 +24,7 @@ Partial Class LivingStory
     Private Sub InitializeComponent()
         Me.EditorPanel = New System.Windows.Forms.Panel()
         Me.ReaderPanel = New System.Windows.Forms.Panel()
-        Me.StatsBlock1 = New StatsBlock.StatsBlock()
-        Me.TopMenu1 = New StatsBlock.TopMenu()
-        Me.DisplayScreen1 = New StatsBlock.DisplayScreen()
+        Me.ReaderModeScreen1 = New Living_Story.ReaderModeScreen()
         Me.EditorPanel.SuspendLayout()
         Me.ReaderPanel.SuspendLayout()
         Me.SuspendLayout()
@@ -42,45 +40,21 @@ Partial Class LivingStory
         '
         'ReaderPanel
         '
-        Me.ReaderPanel.Controls.Add(Me.StatsBlock1)
-        Me.ReaderPanel.Controls.Add(Me.TopMenu1)
-        Me.ReaderPanel.Controls.Add(Me.DisplayScreen1)
+        Me.ReaderPanel.Controls.Add(Me.ReaderModeScreen1)
         Me.ReaderPanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ReaderPanel.Location = New System.Drawing.Point(0, 0)
         Me.ReaderPanel.Name = "ReaderPanel"
         Me.ReaderPanel.Size = New System.Drawing.Size(984, 661)
         Me.ReaderPanel.TabIndex = 0
         '
-        'StatsBlock1
+        'ReaderModeScreen1
         '
-        Me.StatsBlock1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.StatsBlock1.BackColor = System.Drawing.SystemColors.Control
-        Me.StatsBlock1.Location = New System.Drawing.Point(12, 67)
-        Me.StatsBlock1.Name = "StatsBlock1"
-        Me.StatsBlock1.Size = New System.Drawing.Size(196, 492)
-        Me.StatsBlock1.TabIndex = 3
-        '
-        'TopMenu1
-        '
-        Me.TopMenu1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TopMenu1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.TopMenu1.Location = New System.Drawing.Point(3, 3)
-        Me.TopMenu1.Name = "TopMenu1"
-        Me.TopMenu1.Size = New System.Drawing.Size(974, 58)
-        Me.TopMenu1.TabIndex = 2
-        '
-        'DisplayScreen1
-        '
-        Me.DisplayScreen1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.DisplayScreen1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.DisplayScreen1.Location = New System.Drawing.Point(210, 67)
-        Me.DisplayScreen1.Name = "DisplayScreen1"
-        Me.DisplayScreen1.Size = New System.Drawing.Size(767, 591)
-        Me.DisplayScreen1.TabIndex = 1
+        Me.ReaderModeScreen1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.ReaderModeScreen1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ReaderModeScreen1.Location = New System.Drawing.Point(0, 0)
+        Me.ReaderModeScreen1.Name = "ReaderModeScreen1"
+        Me.ReaderModeScreen1.Size = New System.Drawing.Size(984, 661)
+        Me.ReaderModeScreen1.TabIndex = 0
         '
         'LivingStory
         '
@@ -97,8 +71,6 @@ Partial Class LivingStory
     End Sub
     Friend WithEvents EditorPanel As System.Windows.Forms.Panel
     Friend WithEvents ReaderPanel As System.Windows.Forms.Panel
-    Friend WithEvents DisplayScreen1 As StatsBlock.DisplayScreen
-    Friend WithEvents TopMenu1 As StatsBlock.TopMenu
-    Friend WithEvents StatsBlock1 As StatsBlock.StatsBlock
+    Friend WithEvents ReaderModeScreen1 As Living_Story.ReaderModeScreen
 
 End Class

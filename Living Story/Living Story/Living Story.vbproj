@@ -125,6 +125,9 @@
     <EmbeddedResource Include="Main Screens\Base Screens\LivingStory.resx">
       <DependentUpon>LivingStory.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Main Screens\EditorModeScreen.resx">
+      <DependentUpon>EditorModeScreen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main Screens\ReaderModeScreen.resx">
       <DependentUpon>ReaderModeScreen.vb</DependentUpon>
     </EmbeddedResource>
