@@ -2,9 +2,6 @@
 
 Public Class StatsBlock
 
-    Private _Number As Integer
-    Private _Lines As List(Of StatLine)
-
     Public Sub New()
 
         ' This call is required by the designer.

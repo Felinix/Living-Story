@@ -22,58 +22,76 @@ Partial Class StatLine
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.StatName = New System.Windows.Forms.Label()
-        Me.StatValue = New System.Windows.Forms.Label()
-        Me.StatModifier = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.lblStatName = New System.Windows.Forms.Label()
+        Me.lblStatValue = New System.Windows.Forms.Label()
+        Me.lblStatMod = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'StatName
+        'TableLayoutPanel1
         '
-        Me.StatName.AutoSize = True
-        Me.StatName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StatName.Location = New System.Drawing.Point(3, 0)
-        Me.StatName.Name = "StatName"
-        Me.StatName.Size = New System.Drawing.Size(63, 20)
-        Me.StatName.TabIndex = 0
-        Me.StatName.Text = "Label1"
+        Me.TableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.TableLayoutPanel1.ColumnCount = 3
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.lblStatMod, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.lblStatName, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.lblStatValue, 1, 0)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(253, 26)
+        Me.TableLayoutPanel1.TabIndex = 0
         '
-        'StatValue
+        'lblStatName
         '
-        Me.StatValue.AutoSize = True
-        Me.StatValue.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StatValue.Location = New System.Drawing.Point(102, 0)
-        Me.StatValue.Name = "StatValue"
-        Me.StatValue.Size = New System.Drawing.Size(57, 20)
-        Me.StatValue.TabIndex = 1
-        Me.StatValue.Text = "Label2"
+        Me.lblStatName.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lblStatName.Location = New System.Drawing.Point(3, 0)
+        Me.lblStatName.Name = "lblStatName"
+        Me.lblStatName.Size = New System.Drawing.Size(145, 26)
+        Me.lblStatName.TabIndex = 0
+        Me.lblStatName.Text = "Label1"
+        Me.lblStatName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
-        'StatModifier
+        'lblStatValue
         '
-        Me.StatModifier.AutoSize = True
-        Me.StatModifier.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StatModifier.Location = New System.Drawing.Point(171, 0)
-        Me.StatModifier.Name = "StatModifier"
-        Me.StatModifier.Size = New System.Drawing.Size(57, 20)
-        Me.StatModifier.TabIndex = 2
-        Me.StatModifier.Text = "Label2"
+        Me.lblStatValue.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lblStatValue.Location = New System.Drawing.Point(154, 0)
+        Me.lblStatValue.Name = "lblStatValue"
+        Me.lblStatValue.Size = New System.Drawing.Size(44, 26)
+        Me.lblStatValue.TabIndex = 1
+        Me.lblStatValue.Text = "Label2"
+        Me.lblStatValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'lblStatMod
+        '
+        Me.lblStatMod.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.lblStatMod.Location = New System.Drawing.Point(204, 0)
+        Me.lblStatMod.Name = "lblStatMod"
+        Me.lblStatMod.Size = New System.Drawing.Size(46, 26)
+        Me.lblStatMod.TabIndex = 2
+        Me.lblStatMod.Text = "Label3"
+        Me.lblStatMod.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'StatLine
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.Controls.Add(Me.StatModifier)
-        Me.Controls.Add(Me.StatValue)
-        Me.Controls.Add(Me.StatName)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "StatLine"
-        Me.Size = New System.Drawing.Size(231, 20)
+        Me.Size = New System.Drawing.Size(253, 26)
+        Me.TableLayoutPanel1.ResumeLayout(False)
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents StatName As System.Windows.Forms.Label
-    Friend WithEvents StatValue As System.Windows.Forms.Label
-    Friend WithEvents StatModifier As System.Windows.Forms.Label
+    Friend WithEvents TableLayoutPanel1 As System.Windows.Forms.TableLayoutPanel
+    Friend WithEvents lblStatMod As System.Windows.Forms.Label
+    Friend WithEvents lblStatName As System.Windows.Forms.Label
+    Friend WithEvents lblStatValue As System.Windows.Forms.Label
 
 End Class
