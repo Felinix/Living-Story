@@ -45,6 +45,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,18 +63,21 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClasses\Assets\Asset.vb" />
-    <Compile Include="BaseClasses\Characteristics\Background.vb" />
-    <Compile Include="BaseClasses\Characteristics\BodyType.vb" />
-    <Compile Include="BaseClasses\Characteristics\Traits.vb" />
-    <Compile Include="BaseClasses\Characteristics\Race.vb" />
-    <Compile Include="BaseClasses\Character\Character.vb" />
-    <Compile Include="BaseClasses\Basics\Currency.vb" />
-    <Compile Include="BaseClasses\Components\Button.vb" />
-    <Compile Include="BaseClasses\Components\Requisite.vb" />
-    <Compile Include="BaseClasses\Parser\Parser.vb" />
-    <Compile Include="BaseClasses\Parser\ValidateRequisites.vb" />
-    <Compile Include="BaseClasses\Stats\Level.vb" />
+    <Compile Include="BaseClasses\Asset.vb" />
+    <Compile Include="BaseClasses\Background.vb" />
+    <Compile Include="BaseClasses\Base.vb" />
+    <Compile Include="BaseClasses\BodyType.vb" />
+    <Compile Include="BaseClasses\Height.vb" />
+    <Compile Include="BaseClasses\Traits.vb" />
+    <Compile Include="BaseClasses\Race.vb" />
+    <Compile Include="BaseClasses\Character.vb" />
+    <Compile Include="BaseClasses\Currency.vb" />
+    <Compile Include="BaseClasses\Gender.vb" />
+    <Compile Include="Components\Button.vb" />
+    <Compile Include="Components\Requisite.vb" />
+    <Compile Include="Parser\Parser.vb" />
+    <Compile Include="Parser\ValidateRequisites.vb" />
+    <Compile Include="BaseClasses\Level.vb" />
     <Compile Include="Controllers\AssetController.vb" />
     <Compile Include="Data Access\DataLayer.vb" />
     <Compile Include="Data Access\ObjectLayer.vb" />
@@ -94,7 +98,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="BaseClasses\Stats\Stats.vb" />
+    <Compile Include="BaseClasses\Stats.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -114,7 +118,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Persistence\LivingStorage.xlsx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

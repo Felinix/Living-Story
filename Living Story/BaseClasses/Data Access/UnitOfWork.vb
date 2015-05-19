@@ -9,7 +9,7 @@
     Public Sub New()
 
     End Sub
-    Public Sub Reload()
+    Public Overloads Sub Reload()
 
     End Sub
 
