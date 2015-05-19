@@ -6,7 +6,35 @@ BaseClasses
 </name>
 </assembly>
 <members>
-<member name="P:BaseClasses.My.Resources.Resources.ResourceManager">
+<member name="T:BaseClasses.LivingStorage.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BaseClasses.LivingStorage.DataTable2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BaseClasses.LivingStorage.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BaseClasses.LivingStorage.DataTable2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BaseClasses.LivingStorage.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BaseClasses.LivingStorage.DataTable2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BaseClasses.LivingStorage">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:BaseClasses.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
